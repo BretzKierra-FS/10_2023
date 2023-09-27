@@ -1,7 +1,6 @@
 const express = require('express');
 const app = express();
-const router = require('router/users')
-
+const router = require('./routes/users');
 
 app.use(
   express.urlencoded({
@@ -9,10 +8,6 @@ app.use(
   })
 );
 
-app.use('/api', router)
+app.use('/api', router);
 
-app.get('/users', (req, res) => {
-  res.send('Hello World');
-});
-
-app.listen(3000, () => console.log('server is Running'));
+app.listen(3000, () => console.log('Server is Running'));
