@@ -6,8 +6,8 @@ Backend API, Testing, NPM creation, Swagger
 
 ### Week One
 
-- [ X] Write a backend API with a single POST endpoint.
-  - [X ] Endpoint should accept user details (name, email, phone, birthdate, password, zip code).
+- [x] Write a backend API with a single POST endpoint.
+  - [x] Endpoint should accept user details (name, email, phone, birthdate, password, zip code).
 
 ### Week Two
 
