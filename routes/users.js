@@ -6,7 +6,7 @@ const {
   validateEmail,
   validatePassword,
   validatePhone,
-} = require('../packages/utils/validation');
+} = require('@bretzkierra/utils');
 
 router.post(
   '/signup',
