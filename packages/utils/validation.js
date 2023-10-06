@@ -6,7 +6,7 @@ const passwordRegex =
   /^(?=.*[A-Za-z0-9])(?=.*[!@#$%^&*()_+{}\[\]:;<>,.?~\\-]).{6,}$/; //Password format at least 6 char, one special, one number
 
 const validateEmail = (req, res, next) => {
-  const { email } = req.body.email;
+  const email = req.body.email;
 
   if (!email) {
     return res.status(422).json({ message: 'Email field is required' });
@@ -22,7 +22,7 @@ const validateEmail = (req, res, next) => {
 };
 
 const validatePhone = (req, res, next) => {
-  const { phone } = req.body.phone;
+  const phone = req.body.phone;
 
   if (!phone) {
     return res.status(422).json({ message: 'Phone field is required' });
@@ -38,7 +38,7 @@ const validatePhone = (req, res, next) => {
 };
 
 const validateBirthday = (req, res, next) => {
-  const { birthday } = req.body.birthday;
+  const birthday = req.body.birthday;
 
   if (!birthday) {
     return res.status(422).json({ message: 'Birthday field is required' });
@@ -54,7 +54,7 @@ const validateBirthday = (req, res, next) => {
 };
 
 const validatePassword = (req, res, next) => {
-  const { password } = req.body.password;
+  const password = req.body.password;
 
   if (!password) {
     return res.status(422).json({ message: 'Password field is required' });
@@ -62,7 +62,7 @@ const validatePassword = (req, res, next) => {
 
   if (!passwordRegex.test(password)) {
     return res.status(422).json({
-      message: 'Invalid email format',
+      message: 'Invalid password format',
     });
   }
 
