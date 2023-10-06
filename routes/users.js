@@ -6,15 +6,14 @@ const {
   validateEmail,
   validatePassword,
   validatePhone,
-  
-} = require('../middlewares/users');
+} = require('@bretzkierra/utils');
 
 router.post(
   '/signup',
   validateEmail,
-    validatePhone,
-    validateBirthday,
-    validatePassword,
+  validatePhone,
+  validateBirthday,
+  validatePassword,
   userCtlr.signup
 );
 

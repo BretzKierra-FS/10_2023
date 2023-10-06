@@ -10,10 +10,10 @@ Backend API, Testing, NPM creation, Swagger
   - [x] Endpoint should accept user details (name, email, phone, birthdate, password, zip code).
 
 ### Week Two
-
-- [ ] Create a custom NodeJS package/library.
-- [ ] Learn modular NodeJS code & package management using NPM.
-- [ ] Develop a module for user detail validation.
+  ## @bretzkierra/utils
+- [x] Create a custom NodeJS package/library.  
+- [x] Learn modular NodeJS code & package management using NPM.
+- [x] Develop a module for user detail validation.
   - [x] Include methods to validate email, phone number, date of birth, password, and zip code.
 
 ### Week Three
