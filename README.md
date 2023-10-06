@@ -14,7 +14,7 @@ Backend API, Testing, NPM creation, Swagger
 - [ ] Create a custom NodeJS package/library.
 - [ ] Learn modular NodeJS code & package management using NPM.
 - [ ] Develop a module for user detail validation.
-  - [ ] Include methods to validate email, phone number, date of birth, password, and zip code.
+  - [x] Include methods to validate email, phone number, date of birth, password, and zip code.
 
 ### Week Three
 
