@@ -1,0 +1,11 @@
+{
+  "name": "@bretzkierra/signup-tester",
+  "version": "1.0.0",
+  "description": "Uses jest to test signup",
+  "main": "signupTester.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC"
+}
