@@ -12,7 +12,8 @@
   "dependencies": {
     "@bretzkierra/utils": "^1.0.0",
     "axios": "^1.5.1",
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "swagger-ui-express": "^5.0.0"
   },
   "devDependencies": {
     "@bretzkierra/signup-tester": "^1.0.0",
